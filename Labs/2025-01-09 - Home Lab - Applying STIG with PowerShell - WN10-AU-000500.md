@@ -8,15 +8,15 @@ Error messages:
 
 ![9469d8c114c4f5b174ba75db0cc64626.png](attachment/9469d8c114c4f5b174ba75db0cc64626.png)
 
-![](attachment/13df79dffd2a855769229a92c978d2e9.png)
+![](attachments/13df79dffd2a855769229a92c978d2e9.png)
 
 This keeps repeating. I am certain of the username and password, so I am unsure the problem. Attempting to reset them now and try again before reaching out to the community for assistance.
 
 Resetting password:
-![](attachment/012f86744d248fbdfcd54a02b0616229.png)
+![](attachments/012f86744d248fbdfcd54a02b0616229.png)
 
 Re-attempting login:
-![](attachment/86b19b4ad170fedc32c7b2e9bfc8952b.png)
+![](attachments/86b19b4ad170fedc32c7b2e9bfc8952b.png)
 
 That did not work. Same error messages appearing:
 
