@@ -6,7 +6,7 @@ When creating in Azure, there were no problems. However, due to limitations on t
 
 Error messages:
 
-![9469d8c114c4f5b174ba75db0cc64626.png](attachment/9469d8c114c4f5b174ba75db0cc64626.png)
+![](attachment/9469d8c114c4f5b174ba75db0cc64626.png)
 
 ![](attachments/13df79dffd2a855769229a92c978d2e9.png)
 
@@ -20,9 +20,9 @@ Re-attempting login:
 
 That did not work. Same error messages appearing:
 
-![](attachment/9469d8c114c4f5b174ba75db0cc64626.png)
+![](attachments/9469d8c114c4f5b174ba75db0cc64626.png)
 
-![](attachment/13df79dffd2a855769229a92c978d2e9.png)
+![](attachments/13df79dffd2a855769229a92c978d2e9.png)
 
 
 Reaching out to community for assistance:
@@ -42,43 +42,43 @@ Issue resolved.
 Searching for STIGs
 Private IP:   10.0.0.16
 
-![](attachment/564cbe77eb1c0a635f4ad4636ddbddde.png)
+![](attachments/564cbe77eb1c0a635f4ad4636ddbddde.png)
 
 
 
-![](attachment/34b9973c4b119ae666cdcf619fcf0788.png)
+![](attachments/34b9973c4b119ae666cdcf619fcf0788.png)
 
 
 Search for **WN10-AU-000500**
 
-![](attachment/f5aa1d55b7db22f9758e79cf3bf53b89.png)
+![](attachments/f5aa1d55b7db22f9758e79cf3bf53b89.png)
 
 Example of this problem in the VM:
 
-![](attachment/e7a3ac88a79704b7587434f4ab87104d.png)
+![](attachments/e7a3ac88a79704b7587434f4ab87104d.png)
 
 Explanation of STIG:
 
 https://stigaview.com/products/win10/v2r8/WN10-AU-000500/
 
 
-![](attachment/9d4750661a1e835775411bbfb08dac70.png)
+![](attachments/9d4750661a1e835775411bbfb08dac70.png)
 
 
 Restarting Machine
 
 Event Viewer shows the Max Log Size has changed:
-![](attachment/1f5c62f490bcd606bf3d5fbe8a0fdf61.png)
+![](attachments/1f5c62f490bcd606bf3d5fbe8a0fdf61.png)
 
 ---
 
 ### Scan again on Tenable
 
-![](attachment/3c43d96cfcac5acb4bd453f9ea198705.png)
+![](attachments/3c43d96cfcac5acb4bd453f9ea198705.png)
 
 Search for **WN10-AU-000500**
 
-![](attachment/620141c80a0f4862b7569b92a51fab4a.png)
+![](attachments/620141c80a0f4862b7569b92a51fab4a.png)
 
 Success!!
 
@@ -104,11 +104,11 @@ Restart VM
 
 (To prove the fix is gone and the problem has returned)
 
-![](attachment/5ae5fa9943ae47209fd43d9b04a89756.png)
+![](attachments/5ae5fa9943ae47209fd43d9b04a89756.png)
 
 Search for **WN10-AU-000500**
 
-![](attachment/9e837db503cc2ddf4c1183e370afe30c.png)
+![](attachments/9e837db503cc2ddf4c1183e370afe30c.png)
 
 Good! It failed. That means the fix I put in place manually has been removed now.
 
@@ -154,7 +154,7 @@ Save this script as a `.ps1` file (e.g., `Set-EventLogMaxSize.ps1`) and run it i
 
 That worked!
 
-![](attachment/da2c807d769b636b4188691bad11dfda.png)
+![](attachments/da2c807d769b636b4188691bad11dfda.png)
 
 Restart VM again
 
@@ -163,11 +163,11 @@ Restart VM again
 
 Results:
 
-![](attachment/c504cb7b8bf2cee11137f7770ab35508.png)
+![](attachments/c504cb7b8bf2cee11137f7770ab35508.png)
 
 It worked!
 
-![](attachment/84230dc70703d1779fba6571a0c32d34.png)
+![](attachments/84230dc70703d1779fba6571a0c32d34.png)
 
 The PowerShell script implemented the STIG!
 
