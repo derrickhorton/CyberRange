@@ -6,7 +6,7 @@ When creating in Azure, there were no problems. However, due to limitations on t
 
 Error messages:
 
-![](attachment/9469d8c114c4f5b174ba75db0cc64626.png)
+![9469d8c114c4f5b174ba75db0cc64626.png](attachment/9469d8c114c4f5b174ba75db0cc64626.png)
 
 ![](attachment/13df79dffd2a855769229a92c978d2e9.png)
 
